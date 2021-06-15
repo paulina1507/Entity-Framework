@@ -1,0 +1,94 @@
+﻿@model IEnumerable<MVC_ESTILOS.Models.producto>
+
+@{
+    ViewBag.Title = "Mostrar Producto";
+}
+
+<h2>Mostrar</h2>
+<div class="btn-group" style="margin:10px auto auto 32em;">
+    <a href="~/Tienda/NuevoProducto" class="btn btn-warning text-white">
+        <img src="../../Image/agregar-producto.png" /><strong> Agregar Producto</strong>
+    </a>
+    <a href="~/Tienda/NuevoCategoria" class="btn btn-info">
+        <img src="../../Image/lista.png" /><strong> Agregar Categoria</strong>
+    </a>
+    <a href="~/Tienda/Nuevo" class="btn btn-success">
+        <img src="../../Image/agregar-usuario.png" /><strong> Agregar usuario</strong>
+    </a>
+</div>
+<div class="col-lg-12 table-responsive" style="margin-top:10px;">
+    <table class="table table">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.id_categoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.id_usuario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.precio)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.existentes)
+                </th>
+                <th>
+                    Editar
+                </th>
+                <th>
+                    Detalles
+                </th>
+                <th>
+                    Eliminar
+                </th>
+            </tr>
+        </thead>
+
+            @foreach (var item in Model)
+            {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_categoria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_usuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.existentes)
+        </td>
+
+        <td>
+            @Html.ActionLink("Editar", "EditarProducto", new { id = item.id }, new { @class = "btn btn-warning text-white" })
+        </td>
+        <td>
+            @Html.ActionLink("Detalles", "DetallesProducto", new { id = item.id }, new { @class = "btn btn-primary text-white" })
+        </td>
+        <td>
+            @Html.ActionLink("Eliminar", "EliminarProducto", new { id = item.id }, new { @class = "btn btn-danger text-white" })
+        </td>
+    </tr>
+            }
+
+    </table>
+</div>

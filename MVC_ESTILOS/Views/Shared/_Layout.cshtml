@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FANSSTORE</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg black scrolling-navbar" style="box-shadow: 6px 10px 10px black;">
+        <div class="container">
+            <a class="navbar-brand waves-effect">
+                <strong class="text-xl-left text-white">
+                    <font size="5">FansStore</font>
+                </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link waves-effect font-weight-bold text-white" style=" text-shadow: blue 0.1em 0.1em 0.2em;" href="/Home/Index">
+                            <font size="5">Inicio</font>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect font-weight-bold text-white" style=" text-shadow: orange 0.1em 0.1em 0.2em;" href="/Home/Contact">
+                            <font size="5">Contáctanos</font>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="~/Tienda/Nuevo" class="font-weight-bold nav-link border border-white waves-effect text-white"
+                           target="_blank">
+                            <font size="5">Regístrate</font>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view" style="background-image: url('../../Image/thumb-1920-532559.jpg'); background-repeat: no-repeat; background-size: cover; ">
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view" style="background-image: url('../../Image/wallpaperbetter.com_1280x768.jpg'); background-repeat: no-repeat; background-size: cover;">
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view" style="background-image: url('../../Image/840020.png'); background-repeat: no-repeat; background-size: cover;">
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view" style="background-image: url('../../Image/451608.jpg'); background-repeat: no-repeat; background-size: cover;">
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> 
+    <main>
+        <div class="container">
+            @RenderBody()
+        </div>
+    </main>
+    <footer class="bg-dark text-center text-white" style="margin-top:30px;">
+        <div class="footer-copyright py-3">
+            © 2021 Copyright:
+            FansStore.com 
+        </div>
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+</body>
+</html>

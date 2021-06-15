@@ -1,0 +1,37 @@
+﻿@model MVC_ESTILOS.Models.categoria
+
+@{
+    ViewBag.Title = "Detalles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "EditarCategoria", new { id = Model.id }, new { @class = "btn btn-warning text-white" })
+    <a href="~/Tienda/MostrarCategoria" class="btn btn-success text-white">
+        <strong> Regresar</strong>
+    </a>
+</p>
+

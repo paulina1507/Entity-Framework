@@ -1,0 +1,142 @@
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\MVC_ESTILOS.dll.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\MVC_ESTILOS.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\MVC_ESTILOS.pdb
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\csc.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\csc.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\csc.rsp
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\csi.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\csi.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\csi.rsp
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\vbc.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\vbc.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\vbc.rsp
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\VBCSCompiler.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Antlr3.Runtime.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\EntityFramework.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\EntityFramework.SqlServer.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Newtonsoft.Json.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Helpers.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Mvc.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Optimization.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Razor.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.WebPages.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.WebPages.Razor.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\WebGrease.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\EntityFramework.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\EntityFramework.SqlServer.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Helpers.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Mvc.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Optimization.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.Razor.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.WebPages.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\System.Web.WebPages.Razor.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Newtonsoft.Json.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Antlr3.Runtime.pdb
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.Razor.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.csprojAssemblyReference.cache
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.csproj.CoreCompileInputs.cache
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.csproj.CopyComplete
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.pdb
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Buffers.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Memory.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS\MVC_ESTILOS\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\MVC_ESTILOS.dll.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\MVC_ESTILOS.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\MVC_ESTILOS.pdb
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\csc.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\csc.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\csc.rsp
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\csi.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\csi.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\csi.rsp
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Buffers.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Memory.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\vbc.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\vbc.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\vbc.rsp
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\VBCSCompiler.exe
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Antlr3.Runtime.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\EntityFramework.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\EntityFramework.SqlServer.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Newtonsoft.Json.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Helpers.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Mvc.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Optimization.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Razor.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.WebPages.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.WebPages.Razor.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\WebGrease.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\EntityFramework.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\EntityFramework.SqlServer.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Newtonsoft.Json.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Helpers.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Mvc.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Optimization.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.Razor.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.WebPages.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\System.Web.WebPages.Razor.xml
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\Antlr3.Runtime.pdb
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.Helpers.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.Razor.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.csprojAssemblyReference.cache
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.csproj.CoreCompileInputs.cache
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.csproj.CopyComplete
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.dll
+C:\Users\IVANS\Source\Repos\MVC_ESTILOS - copia\MVC_ESTILOS\obj\Debug\MVC_ESTILOS.pdb
