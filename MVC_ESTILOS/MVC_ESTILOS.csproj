@@ -133,6 +133,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\carrito.cs">
+      <DependentUpon>DB.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\categoria.cs">
       <DependentUpon>DB.tt</DependentUpon>
     </Compile>
@@ -150,6 +153,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\factura.cs">
+      <DependentUpon>DB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\producto.cs">
       <DependentUpon>DB.tt</DependentUpon>
@@ -263,6 +269,10 @@
     <Content Include="Views\Tienda\NuevoProducto.cshtml" />
     <Content Include="Views\Tienda\EditarProducto.cshtml" />
     <Content Include="Views\Tienda\DetallesProducto.cshtml" />
+    <Content Include="Views\Tienda\MostrarFactura.cshtml" />
+    <Content Include="Views\Tienda\EditarFactura.cshtml" />
+    <Content Include="Views\Tienda\DetallesFactura.cshtml" />
+    <Content Include="Views\Tienda\NuevoFactura.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

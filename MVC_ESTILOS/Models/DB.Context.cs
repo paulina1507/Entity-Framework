@@ -13,10 +13,10 @@ namespace MVC_ESTILOS.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class TiendaEF2Entities : DbContext
+    public partial class TiendaEntities : DbContext
     {
-        public TiendaEF2Entities()
-            : base("name=TiendaEF2Entities")
+        public TiendaEntities()
+            : base("name=TiendaEntities")
         {
         }
     
@@ -25,7 +25,9 @@ namespace MVC_ESTILOS.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<carrito> carrito { get; set; }
         public virtual DbSet<categoria> categoria { get; set; }
+        public virtual DbSet<factura> factura { get; set; }
         public virtual DbSet<producto> producto { get; set; }
         public virtual DbSet<usuario> usuario { get; set; }
     }

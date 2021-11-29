@@ -12,23 +12,21 @@ namespace MVC_ESTILOS.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class producto
+    public partial class carrito
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public producto()
+        public carrito()
         {
-            this.carrito = new HashSet<carrito>();
+            this.factura = new HashSet<factura>();
         }
     
         public int id { get; set; }
-        public string marca { get; set; }
-        public int id_categoria { get; set; }
-        public string nombre { get; set; }
-        public decimal precio { get; set; }
-        public int existentes { get; set; }
+        public int id_usuario { get; set; }
+        public int id_producto { get; set; }
     
+        public virtual producto producto { get; set; }
+        public virtual usuario usuario { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<carrito> carrito { get; set; }
-        public virtual categoria categoria { get; set; }
+        public virtual ICollection<factura> factura { get; set; }
     }
 }

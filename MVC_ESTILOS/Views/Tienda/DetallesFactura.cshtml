@@ -1,0 +1,60 @@
+﻿@model MVC_ESTILOS.Models.factura
+@{
+    ViewBag.Title = "Detalles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalles</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.pago)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pago)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.importe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.importe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.id_usuario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id_usuario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.id_carrito)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id_carrito)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "EditarCategoria", new { id = Model.id }, new { @class = "btn btn-warning text-white" })
+    <a href="~/Tienda/MostrarCategoria" class="btn btn-success text-white">
+        <strong> Regresar</strong>
+    </a>
+</p>
+

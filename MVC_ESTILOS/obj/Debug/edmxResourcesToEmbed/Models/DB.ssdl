@@ -1,22 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="TiendaEF2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="TiendaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="carrito">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_usuario" Type="int" Nullable="false" />
+    <Property Name="id_producto" Type="int" Nullable="false" />
+  </EntityType>
   <EntityType Name="categoria">
     <Key>
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="descripcion" Type="varchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="factura">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pago" Type="decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="importe" Type="decimal" Precision="11" Scale="2" Nullable="false" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="id_usuario" Type="int" Nullable="false" />
+    <Property Name="id_carrito" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="producto">
     <Key>
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="marca" Type="varchar" MaxLength="100" Nullable="false" />
     <Property Name="id_categoria" Type="int" Nullable="false" />
-    <Property Name="id_usuario" Type="int" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
-    <Property Name="descripcion" Type="varchar" MaxLength="256" />
     <Property Name="precio" Type="decimal" Precision="11" Scale="2" Nullable="false" />
     <Property Name="existentes" Type="int" Nullable="false" />
   </EntityType>
@@ -25,7 +42,6 @@
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="id_producto" Type="int" Nullable="false" />
     <Property Name="nombre" Type="varchar" MaxLength="32" Nullable="false" />
     <Property Name="apellidos" Type="varchar" MaxLength="32" Nullable="false" />
     <Property Name="direccion" Type="varchar" MaxLength="70" />
@@ -34,6 +50,58 @@
     <Property Name="cp" Type="int" />
     <Property Name="localidad" Type="varchar" MaxLength="50" />
   </EntityType>
+  <Association Name="FK__carrito__id_prod__3F466844">
+    <End Role="producto" Type="Self.producto" Multiplicity="1" />
+    <End Role="carrito" Type="Self.carrito" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="producto">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="carrito">
+        <PropertyRef Name="id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__carrito__id_usua__403A8C7D">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="carrito" Type="Self.carrito" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="carrito">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__factura__id_carr__440B1D61">
+    <End Role="carrito" Type="Self.carrito" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="factura" Type="Self.factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="carrito">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="factura">
+        <PropertyRef Name="id_carrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__factura__id_usua__4316F928">
+    <End Role="usuario" Type="Self.usuario" Multiplicity="1" />
+    <End Role="factura" Type="Self.factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuario">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="factura">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK__producto__id_cat__3A81B327">
     <End Role="categoria" Type="Self.categoria" Multiplicity="1">
       <OnDelete Action="Cascade" />
@@ -48,31 +116,31 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK__usuario__id_prod__3D5E1FD2">
-    <End Role="producto" Type="Self.producto" Multiplicity="1">
-      <OnDelete Action="Cascade" />
-    </End>
-    <End Role="usuario" Type="Self.usuario" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="producto">
-        <PropertyRef Name="id" />
-      </Principal>
-      <Dependent Role="usuario">
-        <PropertyRef Name="id_producto" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <EntityContainer Name="TiendaEF2ModelStoreContainer">
+  <EntityContainer Name="TiendaModelStoreContainer">
+    <EntitySet Name="carrito" EntityType="Self.carrito" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="categoria" EntityType="Self.categoria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="factura" EntityType="Self.factura" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="producto" EntityType="Self.producto" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="usuario" EntityType="Self.usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__carrito__id_prod__3F466844" Association="Self.FK__carrito__id_prod__3F466844">
+      <End Role="producto" EntitySet="producto" />
+      <End Role="carrito" EntitySet="carrito" />
+    </AssociationSet>
+    <AssociationSet Name="FK__carrito__id_usua__403A8C7D" Association="Self.FK__carrito__id_usua__403A8C7D">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="carrito" EntitySet="carrito" />
+    </AssociationSet>
+    <AssociationSet Name="FK__factura__id_carr__440B1D61" Association="Self.FK__factura__id_carr__440B1D61">
+      <End Role="carrito" EntitySet="carrito" />
+      <End Role="factura" EntitySet="factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK__factura__id_usua__4316F928" Association="Self.FK__factura__id_usua__4316F928">
+      <End Role="usuario" EntitySet="usuario" />
+      <End Role="factura" EntitySet="factura" />
+    </AssociationSet>
     <AssociationSet Name="FK__producto__id_cat__3A81B327" Association="Self.FK__producto__id_cat__3A81B327">
       <End Role="categoria" EntitySet="categoria" />
       <End Role="producto" EntitySet="producto" />
-    </AssociationSet>
-    <AssociationSet Name="FK__usuario__id_prod__3D5E1FD2" Association="Self.FK__usuario__id_prod__3D5E1FD2">
-      <End Role="producto" EntitySet="producto" />
-      <End Role="usuario" EntitySet="usuario" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
