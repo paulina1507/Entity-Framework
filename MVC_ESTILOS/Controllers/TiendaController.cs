@@ -518,11 +518,6 @@ namespace MVC_ESTILOS.Controllers
                 throw;
             }
         }
-        public ActionResult NuevoCarrito()
-        {
-
-            return View();
-        }
 
         [HttpPost]
         public ActionResult NuevoCarrito(carrito car)

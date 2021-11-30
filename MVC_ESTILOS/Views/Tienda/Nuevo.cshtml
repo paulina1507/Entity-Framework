@@ -5,8 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Agregar nuevo</h2>
-
+<h2>Registrarse</h2>
 
 @using (Html.BeginForm())
 {
@@ -16,7 +15,9 @@
     <hr />
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     <div class="form-group">
-        @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Nombre
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.nombre, "", new { @class = "text-danger" })
@@ -24,7 +25,9 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.apellidos, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Apellidos
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.apellidos, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.apellidos, "", new { @class = "text-danger" })
@@ -32,7 +35,9 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.direccion, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Dirección
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.direccion, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.direccion, "", new { @class = "text-danger" })
@@ -40,7 +45,9 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Email
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
@@ -48,7 +55,9 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.passw, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Password
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.passw, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.passw, "", new { @class = "text-danger" })
@@ -56,7 +65,9 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.cp, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Código postal
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.cp, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.cp, "", new { @class = "text-danger" })
@@ -64,7 +75,9 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.localidad, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="control-label col-md-2">
+            Localidad
+        </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.localidad, new { htmlAttributes = new { @class = "form-control" } })
             @Html.ValidationMessageFor(model => model.localidad, "", new { @class = "text-danger" })
@@ -73,8 +86,8 @@
 
     <div class="form-group">
         <input type="submit" value="Create" class="btn btn-primary" />
-        <a href="~/Tienda/Index" class="btn btn-success text-white">
-            <strong> Regresar</strong>
+        <a href="~/Home/Index" class="btn btn-success text-white">
+            <strong>Regresar </strong>
         </a>
         <button value="Reset" type="reset" class="btn btn-warning text-white">
             <img src="../../Image/refreshing.png" /><strong> Restaurar</strong>

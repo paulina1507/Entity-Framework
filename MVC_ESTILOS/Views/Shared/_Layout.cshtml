@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>FANSSTORE</title>
+    <title>FANSTORE</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -15,7 +15,7 @@
         <div class="container">
             <a class="navbar-brand waves-effect">
                 <strong class="text-xl-left text-white">
-                    <font size="5">FansStore</font>
+                    <font size="5">FanStore</font>
                 </strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -33,6 +33,14 @@
                     <li class="nav-item">
                         <a class="nav-link waves-effect font-weight-bold text-white" style=" text-shadow: orange 0.1em 0.1em 0.2em;" href="/Home/Contact">
                             <font size="5">Contáctanos</font>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="~/Home/Login" class="font-weight-bold nav-link border border-white waves-effect text-white"
+                           target="_blank">
+                            <font size="5">Iniciar sesión</font>
                         </a>
                     </li>
                 </ul>
@@ -94,10 +102,21 @@
             @RenderBody()
         </div>
     </main>
-    <footer class="bg-dark text-center text-white" style="margin-top:30px;">
+    <footer class="bg-dark text-center text-white" style="margin-top:30px; padding-top:20px ">
+        <a href="~/Home/Privacidad" style="padding: 10px; color:white">
+            <strong> Aviso de Privacidad</strong>
+        </a>
+        <a href="~/Home/Privacidad" style="padding: 10px; color:white">
+            <strong> Acuerdo de Confidencialidad</strong>
+        </a>
+        <a href="~/Home/Terminos" style="padding: 10px ; color:white">
+            <strong> Términos de uso del software</strong>
+        </a>
+        <a href="~/Home/Deslinde" style="padding: 10px; color:white ">
+            <strong> Deslinde legal para uso de software</strong>
+        </a>
         <div class="footer-copyright py-3">
-            © 2021 Copyright:
-            FansStore.com 
+            © 2021 Copyright: FanStore.com
         </div>
     </footer>
     @Scripts.Render("~/bundles/jquery")

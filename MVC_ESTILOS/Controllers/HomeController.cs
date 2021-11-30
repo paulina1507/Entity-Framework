@@ -14,16 +14,43 @@ namespace MVC_ESTILOS.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Contact()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your contact page.";
             ViewBag.RenderCarousel = false;
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Login()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your login page.";
+            ViewBag.RenderCarousel = false;
+            return View();
+        }
+
+        public ActionResult Privacidad()
+        {
+            ViewBag.Message = "Your privacity page.";
+            ViewBag.RenderCarousel = false;
+            return View();
+        }
+
+        public ActionResult Confidencialidad()
+        {
+            ViewBag.Message = "Your confidentiality page.";
+            ViewBag.RenderCarousel = false;
+            return View();
+        }
+        public ActionResult Terminos()
+        {
+            ViewBag.Message = "Your terms page.";
+            ViewBag.RenderCarousel = false;
+            return View();
+        }
+
+        public ActionResult Deslinde()
+        {
+            ViewBag.Message = "Your terms page.";
             ViewBag.RenderCarousel = false;
             return View();
         }
