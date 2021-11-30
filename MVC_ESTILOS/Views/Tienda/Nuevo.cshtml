@@ -16,7 +16,7 @@
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     <div class="form-group">
         <div class="control-label col-md-2">
-            Nombre
+            @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control" } })
@@ -26,7 +26,7 @@
 
     <div class="form-group">
         <div class="control-label col-md-2">
-            Apellidos
+            @Html.LabelFor(model => model.apellidos, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.apellidos, new { htmlAttributes = new { @class = "form-control" } })
@@ -36,7 +36,7 @@
 
     <div class="form-group">
         <div class="control-label col-md-2">
-            Dirección
+            @Html.LabelFor(model => model.direccion, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.direccion, new { htmlAttributes = new { @class = "form-control" } })
@@ -46,7 +46,7 @@
 
     <div class="form-group">
         <div class="control-label col-md-2">
-            Email
+            @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
@@ -56,7 +56,7 @@
 
     <div class="form-group">
         <div class="control-label col-md-2">
-            Password
+            @Html.LabelFor(model => model.passw, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.passw, new { htmlAttributes = new { @class = "form-control" } })
@@ -66,7 +66,7 @@
 
     <div class="form-group">
         <div class="control-label col-md-2">
-            Código postal
+            @Html.LabelFor(model => model.cp, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.cp, new { htmlAttributes = new { @class = "form-control" } })
@@ -76,7 +76,7 @@
 
     <div class="form-group">
         <div class="control-label col-md-2">
-            Localidad
+            @Html.LabelFor(model => model.localidad, htmlAttributes: new { @class = "control-label col-md-2" })
         </div>
         <div class="col-md-10">
             @Html.EditorFor(model => model.localidad, new { htmlAttributes = new { @class = "form-control" } })
